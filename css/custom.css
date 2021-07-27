@@ -42,17 +42,74 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
     background: #f8d243!important;
 }
 .text-tap{
-    display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-    flex: 0 0 100%;
+   margin-top: -30px;
 }
-.text-tap>div:first-child{
-    width: 45%;
+.text-tap >a:hover{
+ 
+    text-shadow: 0px 0px 8px rgb(124, 123, 123);
 }
-.text-tap>div:last-child{
-    width: 48%;
-}
+
 .fancy-content{
     height: 27.2vh;
+}
+.svg-fluid{
+    height: 192px;
+    width: 60%;
+    margin-top: -87px;
+       transform: rotate3d(200, -3, -18, 
+35deg
+)
+}
+.img-about{
+    width: 80%;
+    margin-left: 17px;
+}
+.img-an-wh{
+    transition: all 1s ease-in-out;
+    
+}
+#ico:hover .img-an-wh{
+    transform: translate(20px, -30px);
+    transition: all 1s ease-out;
+}
+.img-an-ou{
+    transition: all 9s ease-in-out;
+    transform-origin: center;
+
+}
+.overview-block-ptb:hover .img-an-ou{
+    animation: rot 10s ease-in-out;
+}
+.iq-box-an{
+transition: all  .5s ease-in-out;
+}
+.iq-box-an:hover{
+    transform: translate(0px, -10px);
+    transition: all .7s ease-in-out;
+
+}
+.iq-box-an img {
+    transition: all 1s ease-in-out;
+}
+.iq-box-an:hover img {
+    transform: translate(0px, -10px);
+}
+.iq-box-an:hover #frame2{
+
+      transform: translate(97px, -70px);
+      transition: all 1s ease-in-out;
+} 
+#frame2{
+transition: all  .5s ease-in-out;
+
+}
+
+@keyframes rot {
+    from{
+transform: rotateZ(0deg);
+    }
+    to{
+transform: rotateZ(360deg);
+
+    }
 }
