@@ -509,9 +509,9 @@ header.menu-sticky { position: fixed; background: #131519; padding: 10px 30px; b
 /*---------------------------------------------------------------------
                               Banner
 ---------------------------------------------------------------------*/
-.iq-banner { position: relative; padding: 15% 0 6%; }
+.iq-banner { position: relative; padding: 13% 0 6%; }
 .iq-banner:before { position: absolute; top: 0%; left: 0%; content: ""; width: 100%; z-index: 999; height: 100%; display: inline-block; background-image: url('../images/01.png'); }
-.banner-info { position: relative; z-index: 999; }
+.banner-info { position: relative; z-index: 999; height: 60vh;}
 .iq-banner .iq-countdown { background: #131519; border-radius: 30px; padding: 40px 40px; position: relative; }
 .iq-banner .wave-poistion { position: absolute; top: 0; left: 0; z-index: 99; }
 .iq-banner .wave-poistion canvas { width: 100% !important; height: 100% !important; }
@@ -580,13 +580,13 @@ header.menu-sticky { position: fixed; background: #131519; padding: 10px 30px; b
 .iq-tranding-Platform .nav-tabs { border: none; }
 .iq-tranding-Platform .nav-tabs .nav-link:first-child { -webkit-border-top-left-radius: 30px; -moz-border-radius-topleft: 30px; border-top-left-radius: 30px; }
 .iq-tranding-Platform .nav-tabs .nav-link:last-child { -webkit-border-top-right-radius: 30px; -moz-border-radius-topright: 30px; border-top-right-radius: 30px; }
-.iq-tranding-Platform .nav-tabs .nav-link { padding: 15px 20px; text-align: center; width: 20%; color: #fff; border: none; background: #101114; position: relative; }
+.iq-tranding-Platform .nav-tabs .nav-link { padding: 15px 20px; text-align: center; width: 25%; color: #fff; border: none; background: #101114; position: relative; }
 .iq-tranding-Platform .nav-tabs .nav-link:hover:before, .iq-tranding-Platform .nav-tabs .nav-link.active:before, .iq-tranding-Platform .nav-tabs .nav-item.show .nav-link { content: ""; bottom: 0; left: 0; display: inline-block; position: absolute; height: 2px; width: 100%; background: #f9b707; }
 .iq-tranding-Platform .nav-tabs .nav-link i { font-size: 42px; margin-bottom: 5px; }
 .iq-tranding-Platform .nav-tabs .nav-link span { display: block; font-size: 16px; }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus { background: #131519; border: none; color: #f9b707; }
 .iq-tranding-Platform .light-bg { -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; }
-.iq-tranding-Platform .tab-content { padding: 15px; }
+.iq-tranding-Platform .tab-content { padding: 15px; margin-top: 20px; }
 .table-bordered td, .table-bordered th { border: 1px solid #292c34; }
 #chartdiv { width: 100%; height: 500px; }
 #chartdiv .amcharts-chart-div a, #chartrounddiv .amcharts-chart-div a, .amcharts-export-menu.amcharts-export-menu-top-right.amExportButton { display: none !important; }
@@ -628,7 +628,7 @@ Token Sale
                             Token 
 -----------------------------------------------------------------------*/
 .iq-countdown-2 h2 { font-size: 60px; font-weight: 600; line-height: 80px; }
-.iq-countdown-2 { background: -webkit-box-shadow:10px 10px 142px -39px rgba(0, 0, 0, 0.75); -moz-box-shadow: 10px 10px 142px -39px rgba(0, 0, 0, 0.75); box-shadow: 10px 10px 142px -39px rgba(0, 0, 0, 0.75); }
+.iq-countdown-2 { background: -webkit-box-shadow: 10px 10px 142px -39px rgba(0, 0, 0, 0.75); -moz-box-shadow: 10px 10px 142px -39px rgba(0, 0, 0, 0.75); box-shadow: 10px 10px 142px -39px rgba(0, 0, 0, 0.75); }
 .iq-countdown-2 h5 { font-size: 21px; line-height: 24px; }
 .iq-countdown-2 #countdown { list-style: none; margin: 40px 0 20px 0; padding: 0; display: inline-block; width: 100%; }
 .iq-countdown-2 #countdown li { display: inline-block; }

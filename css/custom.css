@@ -8,3 +8,51 @@ Design and Developed by: iqonicthemes.in
 NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
 
 */
+.top-title{
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: .5625rem;
+    color: #666;
+}
+.title-banner{
+    font-size: 11.11111111vmin;
+    font-weight: 600;
+    color: white;
+    letter-spacing: .17rem;
+    font-family: butler,Serif;
+    width: 10em;
+    margin-left: -0.5em;
+}
+.sub-title-banner{
+    margin-top: 1.125rem;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+}
+.button-banner{
+    background: transparent!important;
+    border: 2px solid #f8d243;
+   color: white!important;
+    font-size: 12px;
+    padding: 4px 30px;
+    border-radius: 2rem!important;
+}
+.button-banner:hover{
+    background: #f8d243!important;
+}
+.text-tap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.text-tap>div:first-child{
+    width: 45%;
+}
+.text-tap>div:last-child{
+    width: 48%;
+}
+.fancy-content{
+    height: 27.2vh;
+}
