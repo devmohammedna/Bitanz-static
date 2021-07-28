@@ -680,6 +680,8 @@
 
 .fadeInUp {
   animation-name: fadeInUp;
+
+  
 }
 
 @keyframes fadeInUpBig {
@@ -815,6 +817,8 @@
 
 .fadeOutUp {
   animation-name: fadeOutUp;
+  transition: all 1s ease-in;
+
 }
 
 @keyframes fadeOutUpBig {

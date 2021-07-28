@@ -8,6 +8,22 @@ Design and Developed by: iqonicthemes.in
 NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
 
 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(0px 1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0 0);
+
+  }
+}
+section{ 
+    transition: all 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
 nav ul {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
