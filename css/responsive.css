@@ -64,6 +64,7 @@ Design and Developed by: iqonicthemes.in
 }
 @media(max-width:979px) { }
 @media(max-width:767px) {
+	
 	.iq-banner-3 { padding: 100px 0 50px; }
 	.container { max-width: 100%; }
 	header .navbar-light .nav { display: none; }
