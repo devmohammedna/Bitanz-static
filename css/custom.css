@@ -122,9 +122,13 @@ transform: rotateZ(360deg);
 .Read-more-ser{
     margin-top: 10px;
     border: 1px solid #f8d243;
-    color: white;
+    color: #f8d243;
     padding: 10px 20px;
     border-radius: 50px;
+}
+.Read-more-ser:hover{
+    background-color: #f8d243;
+    color: #000;
 }
 @media(max-width:768px){
     .title-banner {width: 100%;
@@ -137,6 +141,9 @@ transform: rotateZ(360deg);
 }
    .text-tap{
        margin-top: 10px;
+   }
+   .banner-info{
+      height: 71vh;
    }
 }
 @media(max-width:320px){

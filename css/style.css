@@ -31,7 +31,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 ==> Tranding Platform
 ==> Team
 ==> Executive Partners
-==> Blog
+==> Blog.iq-banner
 ==> FAQ
 ==> Contact us
 ==> Owl Carousel
@@ -46,10 +46,10 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 *::-moz-selection { background: #f9b707; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #f9b707; color: #fff; text-shadow: none; }
 ::selection { background: #f9b707; color: #fff; text-shadow: none; }
-body { font-family: 'Comfortaa', cursive; font-weight: normal; position: relative; font-style: normal; font-size: 14px; line-height: 26px; color: #e3e3e3; overflow-x: hidden; background: #16181c; }
+body { font-family: 'Comfortaa', cursive; font-weight: normal; position: relative; font-style: normal; font-size: 14px; line-height: 26px; color: #1d2537; overflow-x: hidden; background: #fff; }
 a:hover, a:focus, a.active { text-decoration: none; outline: none; }
 a, a:hover, a:focus { color: #f9b707; -webkit-transition: all 250ms ease-in-out 0s; -moz-transition: all 250ms ease-in-out 0s; -ms-transition: all 250ms ease-in-out 0s; -o-transition: all 250ms ease-in-out 0s; transition: all 250ms ease-in-out 0s; text-decoration: none; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: normal; color: #fff; margin-top: 0px; margin-bottom: 0px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: normal; color: #f9b707; margin-top: 0px; margin-bottom: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 50px; line-height: normal; }
 h2 { font-size: 36px; line-height: normal; }
@@ -406,7 +406,7 @@ Margin Right
 .white-bg { background: #ffffff; }
 .grey-bg { background: #f7f7f7; }
 .blue-bg { background: #16181c; }
-.light-bg { background: #131519; }
+.light-bg { background: #f7f7f7; }
 .yellow-bg { background: #f9b707; }
 
 /*---------------------------------------------------------------------
@@ -434,7 +434,7 @@ Margin Right
 
 /* Background Gradient Black */
 .iq-over-black-10:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.1); }
-.iq-over-black-20:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.2); }
+.iq-over-black-20:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.9); }
 .iq-over-black-30:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.3); }
 .iq-over-black-40:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.4); }
 .iq-over-black-50:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.5); }
@@ -509,7 +509,7 @@ header.menu-sticky { position: fixed; background: #131519; padding: 10px 30px; b
 /*---------------------------------------------------------------------
                               Banner
 ---------------------------------------------------------------------*/
-.iq-banner { position: relative; padding: 13% 0 6%; }
+.iq-banner { position: relative; padding: 12% 0 6%; }
 .iq-banner:before { position: absolute; top: 0%; left: 0%; content: ""; width: 100%; z-index: 999; height: 100%; display: inline-block; background-image: url('../images/01.png'); }
 .banner-info { position: relative; z-index: 999; height: 60vh;}
 .iq-banner .iq-countdown { background: #131519; border-radius: 30px; padding: 40px 40px; position: relative; }
@@ -564,7 +564,7 @@ header.menu-sticky { position: fixed; background: #131519; padding: 10px 30px; b
 /*---------------------------------------------------------------------
                              Fancy-box 
 ---------------------------------------------------------------------*/
-.iq-fancy-box { background: #181a21; padding: 0 20px 20px; margin-bottom: 120px; position: relative; }
+.iq-fancy-box { background: #fff; padding: 0 20px 20px; margin-bottom: 120px; position: relative; box-shadow: 0px 0px 20px #5f68ff; border-radius: 13px;}
 .iq-fancy-box .fancy-icon img { width: 60%; margin-top: -80px; }
 .iq-fancy-box .fancy-content h5 { font-family: 'Comfortaa', cursive; margin: 25px 0 25px; }
 
@@ -580,12 +580,12 @@ header.menu-sticky { position: fixed; background: #131519; padding: 10px 30px; b
 .iq-tranding-Platform .nav-tabs { border: none; }
 .iq-tranding-Platform .nav-tabs .nav-link:first-child { -webkit-border-top-left-radius: 30px; -moz-border-radius-topleft: 30px; border-top-left-radius: 30px; }
 .iq-tranding-Platform .nav-tabs .nav-link:last-child { -webkit-border-top-right-radius: 30px; -moz-border-radius-topright: 30px; border-top-right-radius: 30px; }
-.iq-tranding-Platform .nav-tabs .nav-link { padding: 15px 20px; text-align: center; width: 25%; color: #fff; border: none; background: #101114; position: relative; }
-.iq-tranding-Platform .nav-tabs .nav-link:hover:before, .iq-tranding-Platform .nav-tabs .nav-link.active:before, .iq-tranding-Platform .nav-tabs .nav-item.show .nav-link { content: ""; bottom: 0; left: 0; display: inline-block; position: absolute; height: 2px; width: 100%; background: #f9b707; }
+.iq-tranding-Platform .nav-tabs .nav-link { padding: 15px 20px; text-align: center; width: 25%; color: #101114; border: none; background: rgb(255, 255, 255); position: relative; }
+.iq-tranding-Platform .nav-tabs .nav-link:hover:before, .iq-tranding-Platform .nav-tabs .nav-link.active:before, .iq-tranding-Platform .nav-tabs .nav-item.show .nav-link { content: ""; bottom: 0; left: 0; display: inline-block; position: absolute; height: 2px; width: 100%; background: #9934ff; }
 .iq-tranding-Platform .nav-tabs .nav-link i { font-size: 42px; margin-bottom: 5px; }
 .iq-tranding-Platform .nav-tabs .nav-link span { display: block; font-size: 16px; }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus { background: #131519; border: none; color: #f9b707; }
-.iq-tranding-Platform .light-bg { -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; }
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus { background: #fff; border: none; color: #9934ff; }
+.iq-tranding-Platform .light-bg { -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; box-shadow: 0 0 20px; }
 .iq-tranding-Platform .tab-content { padding: 15px; margin-top: 20px; }
 .table-bordered td, .table-bordered th { border: 1px solid #292c34; }
 #chartdiv { width: 100%; height: 500px; }
@@ -800,7 +800,7 @@ Teams 3
 .contact-us .heading-title { margin-bottom: 0; }
 .contact-us .heading-title .title { padding-bottom: 5px; }
 .contact-us .map { display: inline-block; width: 100%; height: 100%; }
-.contact-us form { background: #131519; padding: 30px; border-radius: 30px; }
+.contact-us form { background: #fff; padding: 30px; border-radius: 30px; box-shadow: 0px 0px 10px #5f68ff; }
 .contact-form .section-field { position: relative; width: 100%; float: left; }
 .contact-form .section-field input { position: relative; width: 100%; margin-bottom: 20px; border-radius: 90px; padding-left: 20px; height: 48px; line-height: 48px; clear: both; color: #fff; border: 1px solid #202228; background: #202228; }
 .contact-form .section-field input:focus, .contact-form .section-field.textarea textarea:focus { border: 1px solid #f9b707; background: #f9b707; color: #fff; box-shadow: none; outline: none; }
